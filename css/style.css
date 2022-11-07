@@ -1,0 +1,807 @@
+@charset "UTF-8";
+@media (max-width: 1400px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  #contex .contex--nat {
+    margin-top: 60px !important;
+  }
+}
+@media (max-width: 870px) {
+  #help .help--reb .help--ber h4 {
+    padding: 15px px !important;
+  }
+}
+@media (max-width: 768px) {
+  #sold .sold--catt p {
+    padding: 15px 15px;
+  }
+  #help .help--reb .help--ber h4 {
+    padding: 15px 15px;
+  }
+  #footer .footer--spas h1 {
+    padding: 15px 15px;
+  }
+  #footer .footer--spas a {
+    padding: 15px 15px;
+  }
+  #footer .footer--spas P {
+    padding: 15px 15px;
+  }
+  #footer .footer--cab {
+    display: flex;
+    align-items: center;
+  }
+  #footer .footer--cab ion-icon {
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  #footer .footer--cab a {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFDF5;
+  }
+  #footer .footer--car {
+    display: flex;
+    align-items: center;
+  }
+  #footer .footer--car ion-icon {
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  #footer .footer--car p {
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFDF5;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 652px) {
+  #sold .sold--catt p {
+    padding: 15px 0;
+  }
+  #code .code--too p {
+    padding: 15px 0 !important;
+  }
+  #shoes .shoes--dopop p {
+    font-size: 17px !important;
+  }
+  #help .help--reb .help--ber h4 {
+    padding: 15px 15px !important;
+  }
+}
+@media (max-width: 640px) {
+  #code .code--too p {
+    padding: 15px 0;
+  }
+  #audio {
+    padding-top: 15%;
+    @import url("https://fonts.googleapis.com/css?family=Montserrat");
+  }
+  #audio .audio h2 {
+    font-size: 34px !important;
+  }
+  #audio h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  #audio .accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+  #audio .accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+  #audio .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  #audio .accordion-item-header::after {
+    content: "+";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  #audio .accordion-item-header.active::after {
+    content: "−";
+  }
+  #audio .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  #audio .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+}
+@media (max-width: 640px) and (max-width: 767px) {
+  #audio html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 617px) {
+  #code .code__ccr--too p {
+    padding: 15px 0 !important;
+  }
+}
+@media (max-width: 576px) {
+  #wor {
+    padding-top: 8%;
+  }
+  #wor .wor--wot h1 {
+    font-size: 50px !important;
+  }
+  #shoes .shoes--dopop p {
+    font-size: 15px !important;
+  }
+  #sold .sold h1 {
+    font-size: 35px !important;
+  }
+}
+@media (max-width: 530px) {
+  #header .header--carb ion-icon {
+    display: none;
+  }
+  #header .header input {
+    padding: 13px 40px;
+    color: #FFFFFF;
+    background: rgba(18, 18, 18, 0.3);
+  }
+  #audio {
+    padding-top: 15%;
+    @import url("https://fonts.googleapis.com/css?family=Montserrat");
+  }
+  #audio .audio h2 {
+    font-size: 29px !important;
+  }
+  #audio h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  #audio .accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+  #audio .accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+  #audio .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  #audio .accordion-item-header::after {
+    content: "+";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  #audio .accordion-item-header.active::after {
+    content: "−";
+  }
+  #audio .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  #audio .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+}
+@media (max-width: 530px) and (max-width: 767px) {
+  #audio html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 530px) {
+  #wor .wor {
+    width: 70%;
+  }
+}
+@media (max-width: 451px) {
+  #wor .wor--wot h1 {
+    font-size: 40px !important;
+  }
+  #wor .wor--wot .wor--car {
+    width: 90%;
+  }
+  #sold {
+    padding-top: 60px;
+  }
+  #sold .sold h1 {
+    font-size: 30px !important;
+  }
+  #contex .contex h1 {
+    font-size: 25px !important;
+  }
+  #contex .contex button {
+    margin-top: 22px !important;
+  }
+  #audio {
+    padding-top: 15%;
+  }
+  #audio .audio h2 {
+    font-size: 23px !important;
+  }
+  #help .help h1 {
+    font-size: 30px !important;
+  }
+  #shoes .shoes p {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 398px) {
+  #wor .wor--wot h1 {
+    font-size: 30px !important;
+  }
+  #wor .wor--wot .wor--car {
+    width: 90%;
+  }
+  #sold .sold h1 {
+    font-size: 20px !important;
+  }
+  #contex .contex h1 {
+    font-size: 20px !important;
+  }
+  #contex .contex button {
+    margin-top: 18px !important;
+  }
+  #code .code h1 {
+    font-size: 13px !important;
+  }
+  #help .help h1 {
+    font-size: 23px !important;
+  }
+}
+@media (max-width: 376px) {
+  #contex .contex li {
+    margin-top: -43% !important;
+  }
+  #contex .contex p {
+    font-size: 10px !important;
+  }
+  #contex .contex button {
+    margin-top: 50px !important;
+  }
+  #wor .wor--wot h1 {
+    text-align: center;
+  }
+  #wor .wor--wot p {
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  #shoes .shoes input {
+    width: 250px !important;
+    margin-left: 22px !important;
+  }
+  #wor .wor {
+    width: 48%;
+  }
+  #wor .wor--wot {
+    margin-left: 30px;
+  }
+  #wor .wor--wot h1 {
+    text-align: center;
+    margin-left: 20px !important;
+  }
+  #wor .wor--wot p {
+    text-align: center;
+    margin-block-end: 20px;
+  }
+  #contex .contex button {
+    margin-top: 20px !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: rgb(255, 255, 255);
+}
+
+.container {
+  weight: 1140px;
+  margin: 0 auto;
+}
+
+#header .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#header .header--car ion-icon {
+  width: 30px;
+  height: 30px;
+  color: #121212;
+}
+#header .header--carb ion-icon {
+  padding: 20px 0;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  color: #121212;
+}
+#header .header input {
+  padding: 13px 40px;
+  color: #FFFFFF;
+  background: rgba(18, 18, 18, 0.3);
+}
+
+#wor {
+  padding-top: 8%;
+}
+#wor .wor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#wor .wor--wot h1 {
+  font-family: "Roboto" sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 52px;
+  color: #121212;
+  padding: 20px 0;
+}
+#wor .wor--wot p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 118%;
+  color: #130202;
+}
+#wor .wor--cob {
+  margin-left: 36%;
+  padding: 20px 0;
+}
+#wor .wor .wor--car {
+  margin-top: 30px;
+}
+
+#sold {
+  padding-top: 60px;
+}
+#sold .sold h1 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 87.3%;
+  color: #121212;
+  margin-left: 40px;
+}
+#sold .sold .sold--cat {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#sold .sold--catt {
+  padding: 90px 0;
+}
+#sold .sold--catt p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #7D7D7D;
+}
+#sold .sold--catt img {
+  margin-left: 90%;
+}
+#sold .sold--kitt {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#sold .sold--kit p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #7D7D7D;
+}
+
+#duild {
+  padding-top: 10%;
+}
+#duild .duild h1 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 87.3%;
+  color: #121212;
+  margin-left: 5%;
+}
+#duild .duild h3 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 87.3%;
+  color: #514A7E;
+  padding-top: 20px;
+  margin-left: 23%;
+}
+#duild .duild .swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+}
+#duild .duild .swiper-slide {
+  font-size: 18px;
+}
+#duild .duild .swiper-slide a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #121212;
+  margin-left: 10px;
+}
+#duild .duild .swiper-slide p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #7D7D7D;
+  padding: 10px 0;
+}
+#duild .duild .swiper-slide button {
+  padding: 8px 30px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #121212;
+  background: #FFFDF5;
+}
+#duild .duild .swiper-slide ion-icon {
+  width: 20px;
+  height: 20px;
+  color: #121212;
+}
+#duild .duild--slidee a {
+  color: #514A7E;
+}
+#duild .duild .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+#contex {
+  padding-top: 10%;
+}
+#contex .contex h1 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 87.3%;
+  color: #121212;
+  margin-left: 40px;
+}
+#contex .contex--nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+#contex .contex--nat {
+  width: 500px;
+  height: 180px;
+  background: rgba(29, 161, 81, 0.18);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+#contex .contex img {
+  margin-top: 50px;
+}
+#contex .contex li {
+  margin-left: 30%;
+  margin-top: -30%;
+  padding: 20px 0;
+}
+#contex .contex li ion-icon {
+  color: #514A7E;
+}
+#contex .contex p {
+  margin-left: 25%;
+  font-weight: 300;
+  font-size: 12px;
+  color: #7D7D7D;
+}
+#contex .contex--vit {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  margin-left: 25px;
+}
+#contex .contex h4 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #121212;
+}
+#contex .contex a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #514A7E;
+}
+#contex .contex button {
+  padding: 10px 25px;
+  background: #514A7E;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFDF5;
+  margin-top: 50px;
+}
+
+#audio {
+  padding-top: 15%;
+  @import url("https://fonts.googleapis.com/css?family=Montserrat");
+}
+#audio .audio h2 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 87.3%;
+  color: #121212;
+  margin-left: 40px;
+}
+#audio .audio h3 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 87.3%;
+  color: #514A7E;
+  margin-left: 48%;
+}
+#audio h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+#audio .accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+#audio .accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+#audio .accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+#audio .accordion-item-header::after {
+  content: "+";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+#audio .accordion-item-header.active::after {
+  content: "−";
+}
+#audio .accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#audio .accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+@media (max-width: 767px) {
+  #audio html {
+    font-size: 14px;
+  }
+}
+
+#help {
+  padding-top: 10%;
+  margin-left: 40px;
+}
+#help .help h1 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 87.3%;
+  align-items: center;
+  color: #121212;
+  padding: 20px 0;
+}
+#help .help p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 118%;
+  color: #7D7D7D;
+}
+#help .help--reb {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+  flex-wrap: wrap;
+}
+#help .help--reb .help--ber h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 118%;
+  color: #121212;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+}
+#help .help--reb .help--ber h4 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 118%;
+  color: #7D7D7D;
+  align-items: center;
+  text-align: center;
+}
+
+#code {
+  padding-top: 10%;
+  margin-left: 40px;
+}
+#code .code h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #121212;
+}
+#code .code__ccr {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#code .code--too {
+  padding-top: 60px;
+}
+#code .code--too p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 118%;
+  color: #7D7D7D;
+  padding: 15px 0;
+}
+#code .code--too img {
+  margin-left: 60px;
+}
+
+#shoes .shoes--dopop {
+  max-width: 650px;
+  height: 400px;
+  background: rgba(54, 66, 143, 0.75);
+  box-shadow: 0 4px 20px rgba(51, 51, 51, 0.05);
+  margin-top: 10%;
+}
+#shoes .shoes input {
+  width: 274px;
+  color: rgba(20, 89, 121, 0.62);
+  margin-left: 40px;
+  margin-top: 20px;
+  height: 42px;
+}
+#shoes .shoes p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #121212;
+  padding: 20px 20px;
+}
+#shoes .shoes button {
+  padding: 13px 40px;
+  background: #514A7E;
+  border: 0.5px solid #514A7E;
+  border-bottom: 10px;
+  color: #FFFFFF;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+#shoes .shoes h3 {
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 118%;
+  color: #2d1b1b;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+#footer {
+  max-width: 1348px;
+  background: #514A7E;
+  margin-top: 8%;
+}
+#footer .footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 80px 0;
+}
+#footer .footer--spas h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFDF5;
+  padding: 20px 0;
+}
+#footer .footer--spas a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFDF5;
+}
+#footer .footer--spas P {
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFDF5;
+}
+#footer .footer--spas ion-icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+#footer .footer--cab {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--cab ion-icon {
+  margin-top: 20px;
+  color: #ffffff;
+}
+#footer .footer--cab a {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFDF5;
+}
+#footer .footer--car {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--car ion-icon {
+  margin-top: 20px;
+  color: #ffffff;
+}
+#footer .footer--car p {
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFDF5;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

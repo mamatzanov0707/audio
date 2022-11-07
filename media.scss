@@ -1,0 +1,581 @@
+@media (max-width: 1400px) {
+  .container{
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+  #contex {
+    .contex {
+      &--nat {
+        margin-top: 60px !important;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 870px) {
+  #help{
+    .help{
+      &--reb {
+        .help--ber {
+          h4{
+            padding: 15px px!important;
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 768px) {
+  #sold{
+    .sold{
+      &--catt {
+        p {
+          padding: 15px 15px;
+        }
+      }
+    }
+  }
+  #help{
+    .help{
+      &--reb {
+        .help--ber {
+          h4{
+            padding: 15px 15px;
+          }
+        }
+      }
+    }
+  }
+  #footer{
+    .footer{
+      &--spas {
+        h1 {
+          padding: 15px 15px;
+        }
+
+        a {
+          padding: 15px 15px;
+        }
+        P {
+          padding: 15px 15px;
+        }
+      }
+      &--cab{
+        display: flex;
+        align-items: center;
+        ion-icon{
+          margin-top: 20px;
+          color: #ffffff;
+        }
+        a{
+          margin-left: 10px;
+          margin-top: 10px;
+          font-weight: 300;
+          font-size: 12px;
+          color: #FFFDF5;
+        }
+      }
+      &--car{
+        display: flex;
+        align-items: center;
+        ion-icon{
+          margin-top: 20px;
+          color: #ffffff;
+        }
+        p{
+          font-weight: 300;
+          font-size: 12px;
+          color: #FFFDF5;
+          margin-left: 10px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 652px) {
+  #sold{
+    .sold{
+      &--catt {
+        p {
+          padding: 15px 0;
+        }
+      }
+    }
+  }
+  #code{
+    .code{
+      &__ccr{
+      }
+      &--too{
+        p{
+          padding: 15px 0!important;
+        }
+      }
+    }
+  }
+  #shoes{
+
+    .shoes{
+
+      &--dopop {
+
+        p {
+          font-size: 17px!important;
+        }
+      }
+    }
+  }
+  #help{
+    .help{
+      &--reb {
+        .help--ber {
+          h4{
+            padding: 15px 15px!important;
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 640px) {
+  #code{
+    .code{
+      &__ccr{
+      }
+      &--too{
+        p{
+          padding: 15px 0;
+        }
+      }
+    }
+  }
+  #audio{
+    padding-top: 15%;
+
+    .audio{
+      h2{
+        font-size: 34px!important;
+      }
+
+    }
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+    h1 {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 2.5rem;
+    }
+
+    .accordion {
+      width: 90%;
+      max-width: 1000px;
+      margin: 2rem auto;
+    }
+    .accordion-item {
+      background-color: #fff;
+      color: #111;
+      margin: 1rem 0;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    }
+    .accordion-item-header {
+      padding: 0.5rem 3rem 0.5rem 1rem;
+      min-height: 3.5rem;
+      line-height: 1.25rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+    }
+    .accordion-item-header::after {
+      content: "\002B";
+      font-size: 2rem;
+      position: absolute;
+      right: 1rem;
+    }
+    .accordion-item-header.active::after {
+      content: "\2212";
+    }
+    .accordion-item-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+    .accordion-item-body-content {
+      padding: 1rem;
+      line-height: 1.5rem;
+      border-top: 1px solid;
+      border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    }
+
+    @media(max-width:767px) {
+      html {
+        font-size: 14px;
+      }
+    }
+  }
+
+
+}
+@media (max-width: 617px) {
+  #code{
+    .code{
+      &__ccr{
+      &--too {
+        p {
+          padding: 15px 0 !important;
+        }
+      }
+      }
+    }
+  }
+
+}
+@media (max-width: 576px) {
+  #wor{
+    padding-top: 8%;
+
+    .wor{
+      &--wot{
+        h1{
+          font-size: 50px!important;
+        }
+      }
+    }
+  }
+  #shoes{
+
+    .shoes{
+
+      &--dopop {
+        p {
+          font-size: 15px!important;
+        }
+      }
+    }
+  }
+  #sold{
+    .sold{
+      h1 {
+        font-size: 35px!important;
+      }
+    }
+  }
+
+
+}
+@media (max-width: 530px) {
+  #header{
+
+    .header{
+      &--car{
+
+        ion-icon{
+        }
+      }
+      &--carb{
+        ion-icon{
+          display: none;
+
+        }
+      }
+      &--cart {
+      }
+      input{
+        padding: 13px 40px;
+        color: #FFFFFF;
+        background: rgba(18, 18, 18, 0.3);
+      }
+    }
+  }
+  #audio{
+    padding-top: 15%;
+
+    .audio{
+      h2{
+        font-size: 29px!important;
+      }
+
+    }
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+    h1 {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 2.5rem;
+    }
+
+    .accordion {
+      width: 90%;
+      max-width: 1000px;
+      margin: 2rem auto;
+    }
+    .accordion-item {
+      background-color: #fff;
+      color: #111;
+      margin: 1rem 0;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    }
+    .accordion-item-header {
+      padding: 0.5rem 3rem 0.5rem 1rem;
+      min-height: 3.5rem;
+      line-height: 1.25rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+    }
+    .accordion-item-header::after {
+      content: "\002B";
+      font-size: 2rem;
+      position: absolute;
+      right: 1rem;
+    }
+    .accordion-item-header.active::after {
+      content: "\2212";
+    }
+    .accordion-item-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+    .accordion-item-body-content {
+      padding: 1rem;
+      line-height: 1.5rem;
+      border-top: 1px solid;
+      border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    }
+
+    @media(max-width:767px) {
+      html {
+        font-size: 14px;
+      }
+    }
+  }
+  #wor{
+    .wor{
+      width: 70%;
+
+      &--wot {
+        .wor--car {
+        }
+      }
+    }
+  }
+
+
+}
+@media (max-width: 451px) {
+  #wor{
+    .wor{
+      &--wot {
+        h1 {
+          font-size: 40px!important;
+        }
+        .wor--car{
+          width: 90%;
+        }
+      }
+    }
+  }
+  #sold{
+    padding-top: 60px;
+    .sold {
+
+
+      h1 {
+        font-size: 30px!important;
+      }
+    }
+  }
+  #contex{
+    .contex{
+      h1{
+        font-size: 25px!important;
+      }
+      button{
+        margin-top: 22px!important;
+
+      }
+    }
+  }
+  #audio {
+    padding-top: 15%;
+
+    .audio {
+      h2 {
+        font-size: 23px !important;
+      }
+    }
+  }
+  #help{
+
+
+    .help{
+      h1{
+        font-size: 30px!important;
+      }
+
+    }
+  }
+  #shoes{
+
+    .shoes{
+
+      &--dopop{
+
+      }
+      p{
+        font-size: 12px!important;
+      }
+    }
+  }
+}
+@media (max-width: 398px) {
+  #wor{
+    .wor{
+      &--wot {
+        h1 {
+          font-size: 30px!important;
+        }
+        .wor--car{
+          width: 90%;
+        }
+      }
+    }
+  }
+  #sold{
+    .sold {
+
+
+      h1 {
+        font-size: 20px!important;
+      }
+    }
+  }
+  #contex{
+    .contex{
+      h1{
+        font-size: 20px!important;
+      }
+      button{
+        margin-top: 18px!important;
+
+      }
+    }
+  }
+  #code{
+    .code{
+      h1{
+        font-size: 13px!important;
+      }
+    }
+  }
+  #help{
+    .help{
+      h1{
+        font-size: 23px!important;
+      }
+    }
+  }
+
+
+
+}
+@media (max-width: 376px) {
+  #contex{
+
+    .contex{
+      &--nat{
+
+      }
+      li{
+        margin-top: -43%!important;
+      }
+      p{
+        font-size: 10px!important;
+      }
+      &--vit{
+      }
+      h4{
+      }
+      button{
+        margin-top:50px!important;
+      }
+    }
+  }
+  #wor{
+    .wor{
+      &--wot {
+        h1 {
+          text-align: center;
+        }
+      p{
+        text-align: center;
+      }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #shoes{
+
+    .shoes {
+
+      &--dopop {
+
+      }
+
+      input {
+        width: 250px !important;
+        margin-left: 22px !important;
+      }
+    }
+  }
+  #wor{
+    .wor{
+      width: 48%;
+
+      &--wot {
+        margin-left: 30px;
+        h1 {
+          text-align: center;
+          margin-left: 20px!important;
+        }
+        p{
+          text-align: center;
+          margin-block-end: 20px;
+
+        }
+      }
+    }
+  }
+  #contex{
+
+    .contex{
+      &--nat {
+      }
+      button{
+        margin-top:20px!important;
+      }
+    }
+  }
+
+
+
+
+}
